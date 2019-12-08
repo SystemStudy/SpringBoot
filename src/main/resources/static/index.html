@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <input id="json" name="attrs" type="text"/>
+    <button id = "submit">提交</button>
+<script>
+    $("#submit").click(function(){
+        var models = eval($("#json").val())[0].models;
+        var list = new Array();
+        for(var i = 0; i < models.length;i++){
+           var attrList = models[i].attrs
+            for(var j = 0; j < attrList.length;j++){
+                list.push(attrList[j]);
+            }
+        }
+        $.ajax({
+            url : 'http://101.132.130.1:8082/excel/json/buildExcel',
+            contentType: 'application/json',
+            type : 'post',
+            data : JSON.stringify(list),
+            success : function (id,data) {
+                $("body").append('<a id = \'download\'>下载文件</a>');
+                $("#download").attr("href","/excel/json/getExcel?id=" + id);
+            },
+            error : function(data){
+                console.log(data);
+            }
+        })
+    })
+</script>
+</body>
+</html>

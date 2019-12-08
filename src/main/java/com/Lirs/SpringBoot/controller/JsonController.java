@@ -74,6 +74,6 @@ public class JsonController{
     }
     @RequestMapping("/hello")
     public String hello(){
-        return "hello";
+        return "HelloWorld";
     }
 }

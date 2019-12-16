@@ -14,4 +14,9 @@ import java.util.Map;
 public class TableController {
     @Autowired
     TableUtil tableUtil;
+
+    @RequestMapping("/hello")
+    public String masterSayHello(){
+        return "hello";
+    }
 }

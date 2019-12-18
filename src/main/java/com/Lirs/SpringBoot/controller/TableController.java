@@ -17,6 +17,8 @@ public class TableController {
 
     @RequestMapping("/hello")
     public String masterSayHello(){
+        System.out.println("hello");
         return "helloWworld";
+
     }
 }

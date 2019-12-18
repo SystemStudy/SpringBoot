@@ -17,6 +17,6 @@ public class TableController {
 
     @RequestMapping("/hello")
     public String masterSayHello(){
-        return "hello";
+        return "helloWworld";
     }
 }

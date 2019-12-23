@@ -19,7 +19,7 @@ public class TableController {
     public String masterSayHello(){
         return "helloWworld";
     }
-
+    
     public String testMerge(){
         return "测试合并分支";
     }

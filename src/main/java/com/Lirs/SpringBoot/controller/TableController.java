@@ -18,6 +18,9 @@ public class TableController {
     @RequestMapping("/hello")
     public String masterSayHello(){
         return "helloWworld";
+    }
 
+    public String testMerge(){
+        return "测试合并分支";
     }
 }

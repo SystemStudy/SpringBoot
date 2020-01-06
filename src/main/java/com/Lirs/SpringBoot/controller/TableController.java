@@ -35,4 +35,6 @@ public class TableController {
     public String r2(){
         return "添加一条新的信息2";
     }
+
+    
 }

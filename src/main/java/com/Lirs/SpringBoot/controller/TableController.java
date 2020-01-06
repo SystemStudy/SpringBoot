@@ -25,6 +25,6 @@ public class TableController {
     }
 
     public String remoteMerge(){
-        return "在test中添加这条信息，然后合并到master中";
+        return "这里修改成master的信息";
     }
 }

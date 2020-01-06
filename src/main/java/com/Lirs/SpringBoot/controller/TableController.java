@@ -25,6 +25,10 @@ public class TableController {
     }
 
     public String remoteMerge(){
+<<<<<<< HEAD
         return "这里修改为master的信息";
+=======
+        return "这里修改成test的信息";
+>>>>>>> test
     }
 }

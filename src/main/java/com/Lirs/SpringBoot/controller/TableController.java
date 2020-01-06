@@ -36,5 +36,7 @@ public class TableController {
         return "添加一条新的信息2";
     }
 
-    
+    public String r3(){
+        return "添加一条新的信息30";
+    }
 }

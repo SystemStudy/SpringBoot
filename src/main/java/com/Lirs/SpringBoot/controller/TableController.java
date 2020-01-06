@@ -24,40 +24,4 @@ public class TableController {
         return "测试合并分支";
     }
 
-    public String remoteMerge(){
-        return "这里修改为master的信息";
-    }
-
-    public String r1(){
-        return "添加一条新的信息";
-    }
-
-    public String r2(){
-        return "添加一条新的信息2";
-    }
-
-    public String r3(){
-        return "添加一条新的信息30";
-    }
-    public String r4(){
-        return "添加新的信息r4";
-    }
-    public String r5(){
-        return "添加新的信息r5";
-    }
-    public String r6(){
-        return "添加新的信息r6";
-    }
-    public String r7(){
-        return "修改新的信息r7";
-    }
-    public String r8(){
-        return "这里是master的r8";
-    }
-    public String r9(){
-        return "这里是test的r9";
-    }
-    public String r10(){
-        return "test的r10";
-    }
 }

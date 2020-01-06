@@ -27,4 +27,8 @@ public class TableController {
     public String remoteMerge(){
         return "这里修改为master的信息";
     }
+
+    public String r1(){
+        return "添加一条新的信息";
+    }
 }

@@ -51,4 +51,7 @@ public class TableController {
     public String r7(){
         return "修改新的信息r7";
     }
+    public String r8(){
+        return "这里是test的r8";
+    }
 }

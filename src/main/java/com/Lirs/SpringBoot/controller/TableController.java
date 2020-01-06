@@ -54,4 +54,7 @@ public class TableController {
     public String r8(){
         return "这里是master的r8";
     }
+    public String r9(){
+        return "这里是test的r9";
+    }
 }

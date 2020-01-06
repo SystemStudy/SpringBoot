@@ -45,4 +45,7 @@ public class TableController {
     public String r5(){
         return "添加新的信息r5";
     }
+    public String r6(){
+        return "添加新的信息r6";
+    }
 }

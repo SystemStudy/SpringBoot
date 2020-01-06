@@ -23,4 +23,8 @@ public class TableController {
     public String testMerge(){
         return "测试合并分支";
     }
+
+    public String remoteMerge(){
+        return "在test中添加这条信息，然后合并到master中";
+    }
 }

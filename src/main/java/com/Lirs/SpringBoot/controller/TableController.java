@@ -39,4 +39,7 @@ public class TableController {
     public String r3(){
         return "添加一条新的信息30";
     }
+    public String r4(){
+        return "添加新的信息r4";
+    }
 }

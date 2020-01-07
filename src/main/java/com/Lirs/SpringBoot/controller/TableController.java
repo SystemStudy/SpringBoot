@@ -19,9 +19,8 @@ public class TableController {
     public String masterSayHello(){
         return "helloWworld";
     }
-    
-    public String testMerge(){
-        return "测试合并分支";
+    public String tagTest(){
+        return "测试此次提交是否在其他分支课件";
     }
 
 }
